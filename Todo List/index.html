@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App by Vincent</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./todo.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1 class="header">
+        <p><b>My todo App</b></p>
+      </h1>
+    </div>
+    <div class="content">
+      <h2>ToDo List:</h2>
+      <input
+        type="text"
+        id="Type-box"
+        onkeyup="PressEnter(event)"
+        placeholder="Type Here"
+      />
+      <button type="button" id="submit" onclick="addtodo()">Submit</button>
+      <p id="Listing"></p>
+    </div>
+  </body>
+</html>
